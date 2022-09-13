@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./fire.jpg);
+    /* background-color: #cccccc; */
+}
+
+.wrapper {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.googleText,
+.googleSearch {
+    margin: auto;
+    padding: 10px;
+}
+
+.googleText {
+    margin-top: 40px;
+    font-size: 100px;
+    text-shadow: 2px 4px black;
+}
+
+/*Google logo colors*/
+.g-blue {
+    color: #4285F4;
+
+}
+
+.o-red {
+    color: #DB4437;
+}
+
+.o-yellow {
+    color: #F4B400;
+}
+
+.l-green {
+    color: #0F9D58;
+}
+
+
+
+/*Search bar*/
+input {
+    padding: 2px 200px 2px 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-radius: 999px;
+    border: 1px solid gray;
+    box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 0px 0px 27px -12px rgba(0, 0, 0, 0);
+}
+
+button {
+    padding: 2px 10px 2px 10px;
+    font-size: 20px;
+    border-radius: 999px;
+    border: 1px solid gray;
+    background-color: tomato;
+    color: white
+}
+
+button:hover {
+    background-color: red;
+}
+
+/* autoSuggestionBox */
+#autoSuggestionBox {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 500px;
+    /* box-shadow: 0px 0px 27px -12px #000000; */
+    box-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px, 0px 0px 27px -12px rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.miniSuggection {
+    margin: auto;
+    display: flex;
+    width: 500px;
+    height: 42px;
+    border: none;
+    padding-right: 40px;
+    border-bottom: 0px;
+    border-top: 0px;
+    background-color: #020003;
+    color: #ff8000;
+}
+
+
+.miniSuggection:hover {
+    background-color: #EEEEEE;
+}
+
+.thumbnail {
+    width: 40px;
+    height: 40px;
+}
+
+img {
+    width: 90%;
+    height: 90%;
+    padding: 5px;
+}
+
+.infor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.description {
+    color: gray;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+}
